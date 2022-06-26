@@ -7,20 +7,23 @@ h1{
 h2{
 	font-size: 125%;
 	font-family: Monospace;
+	text-align: center;
 }
 
 h3{
 	font-size: 125%;
 	font-family: Monospace;
+	color: #ffffff;
+	text-align: center;
 }
 
 h4{
 	font-size: 125%;
 	font-family: Monospace;
+	text-align: center;
 }
 
 p {
 	font-size: 90%;
-	color: 808080;
 	font-family: Helvetica;
 }

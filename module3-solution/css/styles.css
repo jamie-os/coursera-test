@@ -1,0 +1,151 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #451502;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #c9aea3;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/bbq-logo_150px.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* BBQ Restaurant */
+  font-family: 'Lora', serif;
+  color: #542b02;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* BBQ-cert */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #521808;
+  text-align: center;
+  font-weight: bold;
+}
+
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #521808;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/*HOME PAGE*/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/bbq-logo_90px.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand p { /* Bbq cert */
+    font-size: .6em;
+    margin-top: 9px;
+  }
+  .navbar-brand p img { /* bbq */
+    height: 20px;
+  }
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* BBQ Restaurant */
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+  .navbar-brand p { /* Bbq cert */
+    font-size: .6em;
+    margin-top: 10px;
+  }
+  .navbar-brand p img { /* bbq */
+    height: 20px;
+  }
+}
+
+
+#home-menu-title {  /* OUR MENU */
+  text-align: center;
+  font-family: 'Lora', serif;
+  color: #c9aea3;
+  font-size: 2em;
+}
+
+.container-box {
+  padding: 20px;
+  background-color: #240b02; 
+  margin: 40px;
+  font-family: sans-serif;
+}
+
+
+h2 {
+  font-size: 0.7em;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-size: 0.4em;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
